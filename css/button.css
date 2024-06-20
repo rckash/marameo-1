@@ -10,13 +10,16 @@
 }
 
 .button--fill {
+    margin-top: 16px;
     background-color: #007173;
     color: #ffffff;
 }
 
 .button--nofill {
+    margin-top: 16px;
+    margin-left: 12px;
     border: 1px solid #007173;
-    background-color: #ffffff;
+    background-color: none;
     color: #0f1828;
 }
 

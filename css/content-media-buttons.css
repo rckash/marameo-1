@@ -1,0 +1,24 @@
+.life-changing__section {
+    background-color: #f1eae6;
+    height: 760px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 203px;
+
+}
+
+.heading-paragraph__div {
+    margin-left: 96px;
+    padding-top: 341px;
+}
+
+.buttons__div {
+    margin-left: 96px;
+}
+
+.life-changing__section img {
+    height: 604px;
+    align-self: last baseline;
+    margin-right: 132px;
+}
