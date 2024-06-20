@@ -1,6 +1,6 @@
 /* nav */
 body {
-    background-color: #007173;
+    background-color: lightcoral;
 }
 
 .nav-desktop {
@@ -17,6 +17,7 @@ body {
 .nav__div {
     display: flex;
     flex-direction: row;
+    gap: 6px;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;;
@@ -24,7 +25,7 @@ body {
 
 .dropdown__div {
     display: flex;
-    gap: 30px;
+    gap: 10px;
     align-items: center;
 }
 
@@ -47,6 +48,14 @@ body {
     border: 0;
 }
 
+.button:hover {
+    background-color: #004B4C;
+}
+
+.hamburger__icon {
+    display: none;
+}
+
 .button--fill {
     background-color: #007173;
     color: #ffffff;
@@ -63,10 +72,32 @@ body {
     display: flex;
     align-items: center;
     gap: 8px;
+    height: 48px;
+    padding: 0 20px;
+    border-radius: 100px;
 }
 
 .dropdown img {
     height: 6px;
     filter: invert(57%) sepia(6%) saturate(382%) hue-rotate(182deg) brightness(95%) contrast(87%);
+}
+
+.dropdown:hover {
+    background-color: #FFE1D6;
+}
+
+@media only screen and (max-width: 1200px) {
+    .dropdown__div {
+        display: none;
+    }
+
+    .search__div button {
+        display: none;
+    }
+
+    .hamburger__icon {
+        display: block;
+    }
+
 }
 
