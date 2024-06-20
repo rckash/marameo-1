@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "gotcha-regular";
+    src: url("/fonts/gotcha-regular.ttf");
+  }
+
+.heading-paragraph__div h2 {
+    font-family: "gotcha-regular", sans-serif;
+    font-size: 66px;
+    line-height: 52px;
+    color: #007173;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.heading-paragraph__div span {
+    font-family: 'General Sans', sans-serif;
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 600;
+    color: #0f1828;
+}
+
+.heading-paragraph__div p {
+    font-family: 'General Sans', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: #383838;
+    width: 42%;
+}
+

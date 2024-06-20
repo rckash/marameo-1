@@ -14,4 +14,10 @@
     color: #ffffff;
 }
 
+.button--nofill {
+    border: 1px solid #007173;
+    background-color: #ffffff;
+    color: #0f1828;
+}
+
 
