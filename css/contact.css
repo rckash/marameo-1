@@ -1,0 +1,11 @@
+.contact__anchor {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'General Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
