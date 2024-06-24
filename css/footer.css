@@ -24,10 +24,6 @@ footer {
 }
 
 /* Brands */
-.white__img {
-    filter: invert(100%) sepia(0%) saturate(3642%) hue-rotate(122deg) brightness(107%) contrast(101%);
-}
-
 .brands__div {
     padding-top: 60px;
     width: 100%;
@@ -38,10 +34,6 @@ footer {
 
 .brands__div a {
     width: 240px;
-}
-
-.logo-ipsum__icon {
-    height: 73px;
 }
 
 .ndis__icon {
@@ -231,10 +223,6 @@ footer {
     
     .brands__div a {
         width: auto;
-    }
-    
-    .logo-ipsum__icon {
-        height: 80px;
     }
     
     .ndis__icon {
