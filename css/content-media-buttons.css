@@ -4,8 +4,8 @@
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 203px;
-
+    justify-content: space-between;
+    gap: 50px;
 }
 
 .heading-paragraph__div {
@@ -21,4 +21,40 @@
     height: 604px;
     align-self: last baseline;
     margin-right: 132px;
+    z-index: 999;
+}
+
+.background--green {
+    background-color: #009496;
+    height: inherit;
+    width: 360px;
+    position: absolute;
+    right: 0;
+}
+
+@media screen and (max-width: 1240px) {
+    .life-changing__section {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .heading-paragraph__div {
+        margin-left: auto;
+        padding-top: 341px;
+    }
+
+    .life-changing__section img {
+        height: auto;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .background--green {
+        display: none;
+    }
 }

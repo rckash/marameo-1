@@ -9,10 +9,13 @@
     border: 0;
 }
 
-.button--fill {
-    margin-top: 16px;
+.button--filled {
     background-color: #007173;
     color: #ffffff;
+}
+
+.button--filled:hover {
+    background-color: #004B4C;
 }
 
 .button--nofill {
