@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.life-changing-living {
+    margin: 0;
+    padding: 0;
+    height: 760px;
+    background: linear-gradient(
+        to right,
+        #F1EAE6 0%,
+        #F1EAE6 76%,
+        #009496 76%,
+        #009496 100%
+    );
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+}
+
