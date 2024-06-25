@@ -7,23 +7,25 @@
     font-family: 'General Sans', sans-serif;
     font-weight: 600;
     border: 0;
+    background-color: #007173;
+    color: #ffffff;
+}
+
+.button:hover {
+    background-color: #004B4C;
 }
 
 .button--filled {
     background-color: #007173;
     color: #ffffff;
-}
-
-.button--filled:hover {
-    background-color: #004B4C;
+    width: 100%;
 }
 
 .button--nofill {
-    margin-top: 16px;
-    margin-left: 12px;
     border: 1px solid #007173;
-    background-color: none;
+    background-color: #F1EAE6;
     color: #0f1828;
+    width: 100%;
 }
 
 

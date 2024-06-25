@@ -20,3 +20,15 @@
     font-weight: 600;
     color: #0f1828;
 }
+
+@media screen and (max-width: 800px) {
+    .subtitle--gotcha-regular {
+        font-size: 56px;
+        line-height: 44px;
+    }
+
+    .subtitle--general-sans {
+        font-size: 40px;
+        line-height: 44px;
+    }
+}
