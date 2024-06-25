@@ -1,9 +1,9 @@
 /* nav */
-body {
-    background-color: lightcoral;
-}
 
 .nav {
+    position: absolute;
+    top: 20px;
+    left: 10px;
     width: 90%;
     height: 80px;
     background-color: #ffffff;
