@@ -1,3 +1,8 @@
+.subtitle {
+    display: flex;
+    gap: 15px;
+}
+
 .subtitle--gotcha-regular {
     font-family: "gotcha-regular", sans-serif;
     font-size: 66px;
@@ -9,9 +14,26 @@
 }
 
 .subtitle--general-sans {
-    font-family: 'general-sans-regular', sans-serif;
+    font-family: 'general-sans-semibold', sans-serif;
     font-size: 48px;
     line-height: 52px;
+    color: #0f1828;
+}
+
+.subtitle--gotcha-regular-small {
+    font-family: "gotcha-regular", sans-serif;
+    color: #007173;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    line-height: 44px;
+}
+
+.subtitle--general-sans-small {
+    font-size: 40px;
+    line-height: 44px;
+    font-family: 'general-sans-semibold', sans-serif;
     color: #0f1828;
 }
 
