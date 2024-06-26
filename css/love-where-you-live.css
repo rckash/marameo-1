@@ -1,0 +1,50 @@
+.love-where-you-live {
+    background-color: #FFFFFF;
+    min-height: 550px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 0 24px;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 575px;
+}
+
+.media-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.media-content__img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .love-where-you-live {
+        background-color: #FFFFFF;
+        min-height: 550px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 32px;
+        padding: 0 16px;
+        padding-top: 64px;
+    }
+
+    .text-content {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        text-align: left;
+        max-width: 100%;
+    }
+    
+}
+
