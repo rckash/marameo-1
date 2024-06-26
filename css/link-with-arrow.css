@@ -1,0 +1,10 @@
+.link-with-arrow {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: #007173;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'general-sans-semibold', sans-serif;
+}
