@@ -1,10 +1,11 @@
 /* nav */
 
 .nav {
-    position: absolute;
+    position: fixed;
     top: 20px;
-    left: 10px;
-    width: 90%;
+    left: 2.5%;
+    width: 95%;
+    margin-right: 20px;
     height: 80px;
     background-color: #ffffff;
     display: flex;
