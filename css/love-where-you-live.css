@@ -7,21 +7,21 @@
     padding: 0 24px;
 }
 
-.text-content {
+.love-where-you-live__text-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     max-width: 575px;
 }
 
-.media-content {
+.love-where-you-live__media-content {
     display: flex;
     flex-direction: column;
     justify-content: end;
     align-items: center;
 }
 
-.media-content__img {
+.love-where-you-live__media-content__img {
     width: 100%;
 }
 
@@ -38,10 +38,11 @@
         padding-top: 64px;
     }
 
-    .text-content {
+    .love-where-you-live__text-content {
         display: flex;
         flex-direction: column;
         align-items: start;
+        justify-content: center;
         text-align: left;
         max-width: 100%;
     }
