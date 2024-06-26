@@ -5,6 +5,7 @@
     top: 20px;
     left: 2.5%;
     width: 95%;
+    max-width: calc(0.95 * 1514px);
     margin-right: 20px;
     height: 80px;
     background-color: #ffffff;
