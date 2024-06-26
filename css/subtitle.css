@@ -1,8 +1,3 @@
-@font-face {
-    font-family: "gotcha-regular";
-    src: url("fonts/gotcha-regular.ttf");
-  }
-
 .subtitle--gotcha-regular {
     font-family: "gotcha-regular", sans-serif;
     font-size: 66px;
