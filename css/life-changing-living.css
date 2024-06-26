@@ -1,8 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 .life-changing-living {
     margin: 0;
     padding: 0;
@@ -20,7 +15,7 @@
     gap: 20px;
 }
 
-.text-content {
+.life-changing-living__text-content {
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -28,17 +23,17 @@
     margin-left: 96px;
 }
 
-.media-content {
+.life-changing-living__media-content {
     margin-right: 132px;
 }
 
 @media screen and (max-width: 1400px) {
 
-    .text-content {
+    .life-changing-living__text-content {
         margin-left: 48px;
     }
     
-    .media-content {
+    .life-changing-living__media-content {
         margin-right: 66px;
     }
     
@@ -59,7 +54,7 @@
         gap: 20px;
     }
 
-    .text-content {
+    .life-changing-living__text-content {
         display: flex;
         flex-direction: column;
         gap: 16px;
@@ -67,13 +62,13 @@
         margin-left: 0px;
     }
     
-    .media-content {
+    .life-changing-living__media-content {
         padding: 0;
         margin: 0 21px;
         margin-top: 52px;
     }
     
-    .media-content__img {
+    .life-changing-living__media-content__img {
         width: 100%;
     }
     
