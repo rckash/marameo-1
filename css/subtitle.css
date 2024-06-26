@@ -9,10 +9,9 @@
 }
 
 .subtitle--general-sans {
-    font-family: 'General Sans', sans-serif;
+    font-family: 'general-sans-regular', sans-serif;
     font-size: 48px;
     line-height: 52px;
-    font-weight: 600;
     color: #0f1828;
 }
 
