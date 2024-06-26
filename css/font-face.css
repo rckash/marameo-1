@@ -2,3 +2,18 @@
     font-family: "gotcha-regular";
     src: url("../fonts/gotcha-regular.ttf");
   }
+
+  @font-face {
+    font-family: "general-sans-regular";
+    src: url("../fonts/GeneralSans-Regular.otf");
+  }
+
+  @font-face {
+    font-family: "general-sans-medium";
+    src: url("../fonts/GeneralSans-Medium.otf");
+  }
+
+  @font-face {
+    font-family: "general-sans-semibold";
+    src: url("../fonts/GeneralSans-Semibold.otf");
+  }
