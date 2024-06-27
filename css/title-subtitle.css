@@ -7,4 +7,14 @@
     margin: 0;
     margin-bottom: 20px;
     padding: 0;
+    text-transform: uppercase;
+}
+
+.title--teaser-card {
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: normal;
+    color: #0F1828BF;
+    margin: 0;
+    padding: 0;
 }

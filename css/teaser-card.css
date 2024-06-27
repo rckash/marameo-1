@@ -1,0 +1,18 @@
+.teaser-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 424px;
+    margin: 0;
+    padding: 0;
+}
+
+.teaser-card__text-content {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.teaser-card__media-content__img {
+    border-radius: 12px;
+}
