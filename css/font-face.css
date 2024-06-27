@@ -17,3 +17,8 @@
     font-family: "general-sans-semibold";
     src: url("../fonts/GeneralSans-Semibold.otf");
   }
+
+  @font-face {
+    font-family: "geist-mono";
+    src: url("../fonts/GeistMono-SemiBold.otf");
+  }

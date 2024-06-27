@@ -1,0 +1,30 @@
+.specialist-disability-accommodation {
+    background-color: #0F18280D;
+}
+
+.specialist-disability-accommodation__text-content {
+    padding: 80px 96px 72px 96px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.specialist-disability-accommodation__text-content--main {
+    display: flex;
+    flex-direction: column;
+    max-width: 762px;
+    width: 100%;
+}
+
+.specialist-disability-accommodation__text-content--main__button-link {
+    display: flex;
+    gap: 24px;
+}
+
+.specialist-disability-accommodation__image-content {
+    padding: 0px 96px 80px 96px;
+    max-width: 1320px;
+}
+
+.specialist-disability-accommodation__image-content__img {
+    width: 100%;
+}
