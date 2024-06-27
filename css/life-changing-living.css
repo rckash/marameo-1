@@ -27,6 +27,10 @@
     margin-right: 132px;
 }
 
+.life-changing-living__media-content__img {
+    border-radius: 1000px 1000px 0 0;
+}
+
 @media screen and (max-width: 1400px) {
 
     .life-changing-living__text-content {
