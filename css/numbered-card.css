@@ -1,0 +1,43 @@
+.numbered-card {
+    display: flex;
+    background-color: #0B3938;
+    width: 100%;
+    border-radius: 16px;
+}
+
+.numbered-card__number {
+    font-family: "geist-mono", sans-serif;
+    color: #FAE6AA;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin: 0;
+    padding: 27px 32px 0 32px;
+}
+
+.numbered-card__content {
+    padding: 24px 32px 24px 0;
+    margin: 0;
+}
+
+.numbered-card__title {
+    font-family: "general-sans-medium", sans-serif;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.numbered-card__description {
+    font-family: "general-sans-regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #F1EAE6;
+    margin: 0;
+    padding: 0;
+    margin: 8px 33px 0 0;
+}
