@@ -35,6 +35,13 @@
     color: #0f1828;
 }
 
+.subtitle--general-sans-smaller {
+    font-size: 32px;
+    line-height: 40px;
+    font-family: 'general-sans-semibold', sans-serif;
+    color: #1C1C1C;
+}
+
 @media screen and (max-width: 800px) {
     .subtitle--gotcha-regular {
         font-size: 56px;

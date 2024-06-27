@@ -20,6 +20,15 @@
     width: 100%;
 }
 
+.button--filled-solo {
+    background-color: #007173;
+    color: #ffffff;
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
 .button--nofill {
     border: 1px solid #007173;
     background-color: #F1EAE6;
@@ -29,6 +38,16 @@
 
 .button--nofill:hover {
     background-color: #F1EAE6;
+}
+
+@media screen and (max-width: 1000px) {
+    .button--filled-solo {
+        padding: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 

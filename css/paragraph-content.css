@@ -1,11 +1,14 @@
 .paragraph-content {
     font-family: 'general-sans-regular', sans-serif;
-    font-weight: 400;
     font-size: 18px;
     line-height: 26px;
     color: #383838;
     max-width: 480px;
     margin: 0;
     margin-bottom: 24px;
+}
+
+.paragraph-content--semibold {
+    font-family: 'general-sans-semibold', sans-serif;
 }
 
