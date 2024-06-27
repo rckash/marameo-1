@@ -27,3 +27,8 @@
     color: #0F1828;
 }
 
+.paragraph-content--light {
+    color: #F1EAE6;
+    max-width: none;
+}
+

@@ -1,0 +1,31 @@
+.marameo-difference {
+    background: linear-gradient(
+        to right,
+        #09443E 0%,
+        #09443E 76%,
+        #FFE1D6 76%,
+        #FFE1D6 100%
+    );
+    min-height: 876px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.marameo-difference__text-content {
+    padding-top: 80px;
+    margin-left: 96px;
+    max-width: 627px;
+    width: 100%;
+}
+
+.marameo-difference__media-content {
+    width: 640px;
+    margin-top: 126px;
+    margin-right: 56px;
+}
+
+.marameo-difference__image-content__img {
+    width: 100%;
+}
