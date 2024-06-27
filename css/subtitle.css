@@ -69,6 +69,26 @@
     margin: 0;
 }
 
+.subtitle--general-sans-light {
+    font-family: 'general-sans-semibold', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 44px;
+    color: #FFE1D6;
+    padding: 0;
+    margin: 0;
+}
+
+.subtitle--gotcha-regular-light {
+    font-family: "gotcha-regular", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 44px;
+    color: #FFE1D6;
+    padding: 0;
+    margin: 0;
+}
+
 @media screen and (max-width: 800px) {
     .subtitle--gotcha-regular {
         font-size: 56px;
