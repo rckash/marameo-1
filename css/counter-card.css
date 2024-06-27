@@ -2,7 +2,7 @@
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    max-width: 242px;
+    width: 242px;
     min-height: 142px;
     border-radius: 16px;
 }
@@ -25,9 +25,20 @@
     font-weight: 500;
     font-size: 26px;
     line-height: 32px;
-    width: 100%;
     margin: 0;
     padding: 0;
-    margin: 12px 16px 48px 16px;
+    margin: 12px 16px 0px 16px;
     color: #0F1828;
+}
+
+@media screen and (max-width: 1000px) {
+    .counter-card {
+        width: 100%;
+        min-height: 0;
+    }
+
+    .counter-card__title {
+        margin: 12px 16px 14px 16px;
+    }
+    
 }
