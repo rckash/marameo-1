@@ -1,0 +1,13 @@
+.news-resources {
+    background-color: #FFFFFF;
+    min-height: 670px;
+    display: flex;
+    align-items: center;
+    padding: 0 96px;
+}
+
+.news-resources__subtitle-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
