@@ -38,9 +38,14 @@
     align-items: center;
 }
 
+.opening-the-door__media-content {
+    margin-right: 74px;
+}
+
 .opening-the-door__media-content__img {
     width: 100%;
     max-width: 917px;
+    right: 74px;
     margin-top: 123px;
 }
 
