@@ -16,8 +16,16 @@
 .marameo-difference__text-content {
     padding-top: 80px;
     margin-left: 96px;
+    margin-bottom: 80px;
     max-width: 627px;
     width: 100%;
+}
+
+.marameo-difference__numbered-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 632px;
 }
 
 .marameo-difference__media-content {
@@ -26,6 +34,49 @@
     margin-right: 56px;
 }
 
-.marameo-difference__image-content__img {
+.marameo-difference__media-content__img {
     width: 100%;
+}
+
+@media screen and (max-width: 1460px) {
+    .marameo-difference {
+        background: #09443E;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 64px;
+    }
+
+    .marameo-difference__text-content {
+        padding-top: 64px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    .marameo-difference__numbered-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        max-width: 1200px;
+    }
+
+    .marameo-difference__media-content {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0;
+        margin-top: 48px;
+    }
+
+    .marameo-difference__media-content__img {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0px 4px;
+    }
 }
