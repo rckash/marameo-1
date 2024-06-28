@@ -19,6 +19,7 @@
     flex-direction: column;
     justify-content: end;
     align-items: center;
+    margin-top: 64px;
 }
 
 .love-where-you-live__media-content__img {
@@ -47,5 +48,12 @@
         max-width: 100%;
     }
     
+    .love-where-you-live__media-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        margin-top: 24px;
+    }
 }
 
