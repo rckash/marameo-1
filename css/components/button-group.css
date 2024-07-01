@@ -1,11 +1,10 @@
 .button-group {
     display: flex;
     align-items: center;
-    width: 330px;
     gap: 10px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .button-group {
         width: 100%;
         flex-direction: column;

@@ -1,0 +1,82 @@
+.is-dual-bg-light {
+    background: linear-gradient(
+        to right, 
+        var(--c-pearl-bush) 70%, 
+        var(--c-persian-green) 30%
+    );
+}
+
+.is-dual-bg-dark {
+    background: linear-gradient(
+        to left, 
+        var(--c-pearl-bush) 70%, 
+        var(--c-persian-green) 30%
+    );
+}
+
+.container {
+    max-width: 1300px;
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 120px 20px 0 20px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-media__info {
+    padding-top: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 470px;
+}
+
+.block-heading {
+    font-family: "General Sans";
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 52px;
+}
+
+.highlight {
+    font-family: "Gotcha Regular";
+    font-size: 66px;
+    line-height: 52px;
+}
+
+.content-media__image {
+    border-radius: 1000px 1000px 0 0;
+    width: 100%;
+    height: auto;
+}
+
+/* Media position */
+.is-media-left .col:has(.content-media__media) {
+    order: -1;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        padding: 168px 20px 0 20px;
+    }
+
+    .is-dual-bg-light,
+    .is-dual-bg-dark {
+        background: var(--c-pearl-bush);
+    }
+
+    /* Media position */
+    .is-media-left .col:has(.content-media__media) {
+        order: 1;
+    }
+}
+

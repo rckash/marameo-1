@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+    /* Colors */
+    --c-turquoise: #007173;
+    --c-persian-green: #009496;
+    --c-pearl-bush: #F1EAE6;
+    --c-black: #000;
+    --c-white: #fff;
+    --c-ebony: #0F1828;
+    --c-tiber: #09443E;
+    --c-peach-schnapps: #FFE1D6;
+    --c-robins-egg-blue: #00BFC3;
+    --c-scorpion: #5E5E5E;
+  
+    /* Fonts */
+    --ff-primary: "General Sans";
+    --ff-secondary: "Gotcha Regular";
+  }
+
+  body {
+    font-size: 18px;
+    line-height: 26px;
+    font-family: var(--ff-primary);
+  }
