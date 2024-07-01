@@ -1,14 +1,8 @@
-body { 
-    max-width: 1512px;
-    height: auto;
-    padding: 0;
-    margin: 0;
-}
-
 footer {
     background-color: #0F1828;
     padding: 40px 100px;
     height: auto;
+    max-width: 1512px;
 }
 
 /* Brands */
