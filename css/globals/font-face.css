@@ -1,24 +1,24 @@
 @font-face {
     font-family: "gotcha-regular";
-    src: url("../../fonts/gotcha-regular.ttf");
+    src: url(../../fonts/gotcha-regular.ttf);
   }
 
   @font-face {
     font-family: "general-sans-regular";
-    src: url("../../fonts/GeneralSans-Regular.otf");
+    src: url(../../fonts/GeneralSans-Regular.otf);
   }
 
   @font-face {
     font-family: "general-sans-medium";
-    src: url("../../fonts/GeneralSans-Medium.otf");
+    src: url(../../fonts/GeneralSans-Medium.otf);
   }
 
   @font-face {
     font-family: "general-sans-semibold";
-    src: url("../../fonts/GeneralSans-Semibold.otf");
+    src: url(../../fonts/GeneralSans-Semibold.otf);
   }
 
   @font-face {
     font-family: "geist-mono";
-    src: url("../../fonts/GeistMono-SemiBold.otf");
+    src: url(../../fonts/GeistMono-SemiBold.otf);
   }
