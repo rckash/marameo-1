@@ -1,16 +1,24 @@
 .is-dual-bg-light {
     background: linear-gradient(
         to right, 
-        var(--c-pearl-bush) 70%, 
-        var(--c-persian-green) 30%
+        var(--c-pearl-bush) 75%, 
+        var(--c-persian-green) 25%
     );
 }
 
 .is-dual-bg-dark {
     background: linear-gradient(
         to left, 
-        var(--c-pearl-bush) 70%, 
-        var(--c-persian-green) 30%
+        var(--c-pearl-bush) 75%, 
+        var(--c-persian-green) 25%
+    );
+}
+
+.is-dual-bg-dark--secondary {
+    background: linear-gradient(
+        to right, 
+        var(--c-tiber) 75%, 
+        var(--c-peach-schnapps) 25%
     );
 }
 
@@ -23,7 +31,7 @@
 }
 
 .container {
-    max-width: 1300px;
+    max-width: 1400px;
     display: flex;
     gap: 100px;
     justify-content: space-between;
@@ -43,12 +51,20 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    max-width: 490px;
+    max-width: 628px;
 }
 
 .block-heading {
     font-family: "General Sans";
     color: var(--c-ebony);
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 44px;
+}
+
+.block-heading--light {
+    font-family: "General Sans";
+    color: var(--c-white);
     font-weight: 600;
     font-size: 40px;
     line-height: 44px;
@@ -69,6 +85,13 @@
     line-height: 52px;
 }
 
+.highlight--light {
+    font-family: "Gotcha Regular";
+    color: var(--c-white);
+    font-size: 66px;
+    line-height: 52px;
+}
+
 .subtitle {
     letter-spacing: 2px;
     font-size: 13px;
@@ -79,6 +102,10 @@
 
 .bold {
     font-weight: 600;
+}
+
+.light {
+    color: white;
 }
 
 .content-media__media {
@@ -116,6 +143,7 @@
 .is-image-contained .content-media__info {
     padding-top: 0;
     margin: 0 auto;
+    padding: 60px 0;
 }
 
 .is-image-contained .container {
@@ -129,6 +157,10 @@
 /* Media position */
 .is-media-left .col:has(.content-media__media) {
     order: -1;
+}
+
+.is-media-vertical-center .content-media__media {
+    padding: 80px 0;
 }
 
 @media screen and (max-width: 1000px) {
