@@ -38,6 +38,10 @@
 }
 
 @media screen and (max-width: 1000px) {
+    .button {
+        width: 100%;
+    }
+
     .button--filled-solo {
         padding: 0;
         width: 100%;
