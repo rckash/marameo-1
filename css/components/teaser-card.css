@@ -11,14 +11,14 @@
     line-height: 32px;
     font-weight: 600px;
     color: var(--c-ebony);
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .teaser-card__subtitle {
     font-size: 13px;
     line-height: 18px;
     color: var(--c-turquoise);
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .teaser-card__text-content {
