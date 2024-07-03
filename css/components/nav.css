@@ -1,19 +1,19 @@
 /* nav */
 
 .nav {
-    position: fixed;
-    top: 20px;
-    left: 2.5%;
-    width: 95%;
-    max-width: calc(0.95 * 1514px);
-    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav__container {
+    width: 100%;
+    max-width: calc(0.95 * 1512px);
     height: 80px;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     border-radius: 100px;
-    margin: 0 auto;
 }
 
 .nav-elements {
