@@ -1,3 +1,42 @@
+.button {
+    padding: 1rem 2rem;
+    border-radius: 100px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'general-sans-semibold', sans-serif;
+    border: 0;
+    background-color: #007173;
+    color: #ffffff;
+}
+
+.button:hover {
+    background-color: #004B4C;
+}
+
+.button--filled {
+    background-color: #007173;
+    color: #ffffff;
+}
+
+.button--filled-solo {
+    background-color: #007173;
+    color: #ffffff;
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+.button--nofill {
+    border: 1px solid #007173;
+    background-color: #F1EAE6;
+    color: #0f1828;
+}
+
+.button--nofill:hover {
+    background-color: #F1EAE6;
+}
+
 .button-group {
     display: flex;
     align-items: center;
@@ -8,5 +47,17 @@
     .button-group {
         width: 100%;
         flex-direction: column;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .button--filled-solo {
+        padding: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }

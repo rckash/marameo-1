@@ -1,0 +1,54 @@
+.block-heading {
+    font-family: "General Sans";
+    color: var(--c-ebony);
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 44px;
+}
+
+.block-heading--light {
+    font-family: "General Sans";
+    color: var(--c-white);
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 44px;
+}
+
+.block-heading__title--small {
+    font-family: "General Sans";
+    color: var(--c-ebony);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.highlight {
+    font-family: "Gotcha Regular";
+    color: var(--c-turquoise);
+    font-size: 66px;
+    line-height: 52px;
+}
+
+.highlight--light {
+    font-family: "Gotcha Regular";
+    color: var(--c-white);
+    font-size: 66px;
+    line-height: 52px;
+}
+
+.subtitle {
+    letter-spacing: 2px;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 600;
+    color: var(--c-turquoise);
+    text-transform: uppercase;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.light {
+    color: white;
+}
