@@ -1,8 +1,12 @@
 footer {
     background-color: #0F1828;
-    padding: 40px 100px;
+}
+
+.footer__container {
+    margin: 0 auto;
+    padding: 80px;
     height: auto;
-    max-width: 1512px;
+    max-width: 1400px;
 }
 
 /* Brands */
