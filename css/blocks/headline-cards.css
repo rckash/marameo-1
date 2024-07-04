@@ -11,7 +11,7 @@
 .headline-cards__col {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 40px;
 }
 
 .headline-cards__row {
