@@ -57,7 +57,7 @@
 .block-heading {
     font-family: "General Sans";
     color: var(--c-ebony);
-    font-weight: 400;
+    font-weight: 600;
     font-size: 40px;
     line-height: 44px;
 }
@@ -65,7 +65,7 @@
 .block-heading--light {
     font-family: "General Sans";
     color: var(--c-white);
-    font-weight: 400;
+    font-weight: 600;
     font-size: 40px;
     line-height: 44px;
 }
@@ -81,6 +81,7 @@
 .highlight {
     font-family: "Gotcha Regular";
     color: var(--c-turquoise);
+    font-weight: 400;
     font-size: 66px;
     line-height: 52px;
 }
@@ -88,6 +89,7 @@
 .highlight--light {
     font-family: "Gotcha Regular";
     color: var(--c-white);
+    font-weight: 400;
     font-size: 66px;
     line-height: 52px;
 }
