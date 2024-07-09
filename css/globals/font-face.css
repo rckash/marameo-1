@@ -1,24 +1,33 @@
 @font-face {
-    font-family: "gotcha-regular";
+    font-family: "Gotcha Regular";
     src: url(../../fonts/gotcha-regular.ttf) format("truetype");
+    font-style: normal;
   }
 
   @font-face {
-    font-family: "general-sans-regular";
+    font-family: "General Sans";
     src: url(../../fonts/GeneralSans-Regular.otf) format("opentype");
+    font-style: normal;
+    font-weight: 400;
   }
 
   @font-face {
-    font-family: "general-sans-medium";
+    font-family: "General Sans";
     src: url(../../fonts/GeneralSans-Medium.otf) format("opentype");
+    font-style: normal;
+    font-weight: 500;
   }
 
   @font-face {
-    font-family: "general-sans-semibold";
+    font-family: "General Sans";
     src: url(../../fonts/GeneralSans-Semibold.otf) format("opentype");
+    font-style: normal;
+    font-weight: 600;
   }
 
   @font-face {
-    font-family: "geist-mono";
+    font-family: "General Sans";
     src: url(../../fonts/GeistMono-SemiBold.otf) format("opentype");
+    font-style: normal;
+    font-weight: 700;
   }

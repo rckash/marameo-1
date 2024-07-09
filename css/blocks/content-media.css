@@ -57,7 +57,7 @@
 .block-heading {
     font-family: "General Sans";
     color: var(--c-ebony);
-    font-weight: 600;
+    font-weight: 400;
     font-size: 40px;
     line-height: 44px;
 }
@@ -65,7 +65,7 @@
 .block-heading--light {
     font-family: "General Sans";
     color: var(--c-white);
-    font-weight: 600;
+    font-weight: 400;
     font-size: 40px;
     line-height: 44px;
 }
