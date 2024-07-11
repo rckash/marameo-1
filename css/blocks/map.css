@@ -1,12 +1,9 @@
-.opening-the-door {
+.map {
     background-color: #FFFFFF;
     min-height: 984px;
     display: flex;
-}
-
-.opening-the-door__text-content {
-    padding-left: 96px;
-    padding-top: 80px;
+    padding-top: 60px;
+    justify-content: space-between;
 }
 
 .state-selector__title {
@@ -38,18 +35,15 @@
     align-items: center;
 }
 
-.opening-the-door__media-content {
+.map__media-content {
     margin-right: 74px;
 }
 
-.opening-the-door__media-content__img {
+.map__media-content__img {
     width: 100%;
-    max-width: 917px;
-    right: 74px;
-    margin-top: 123px;
 }
 
-.opening-the-door__mobile {
+.map__mobile {
     display: none;
 }
 
@@ -82,7 +76,7 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .opening-the-door__text-content {
+    .map__text-content {
         display: none;
     }
 
@@ -97,11 +91,11 @@
         padding: 0;
     }
 
-    .opening-the-door__media-content {
+    .map__media-content {
         display: none;
     }
 
-    .opening-the-door__mobile {
+    .map__mobile {
         display: block;
         margin: 64px 16px 62px 16px;
     }

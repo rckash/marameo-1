@@ -44,4 +44,5 @@
     line-height: 18px;
     font-weight: 600;
     color: var(--c-ebony);
+    text-transform: uppercase;
 }
