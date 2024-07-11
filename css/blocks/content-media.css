@@ -45,54 +45,6 @@
     max-width: 628px;
 }
 
-.block-heading {
-    font-family: "General Sans";
-    color: var(--c-ebony);
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 44px;
-}
-
-.block-heading--light {
-    font-family: "General Sans";
-    color: var(--c-white);
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 44px;
-}
-
-.block-heading__title--small {
-    font-family: "General Sans";
-    color: var(--c-ebony);
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 40px;
-}
-
-.highlight {
-    font-family: "Gotcha Regular";
-    color: var(--c-turquoise);
-    font-weight: 400;
-    font-size: 66px;
-    line-height: 52px;
-}
-
-.highlight--light {
-    font-family: "Gotcha Regular";
-    color: var(--c-white);
-    font-weight: 400;
-    font-size: 66px;
-    line-height: 52px;
-}
-
-.subtitle {
-    letter-spacing: 2px;
-    font-size: 13px;
-    line-height: 18px;
-    font-weight: 600;
-    color: var(--c-ebony);
-}
-
 .bold {
     font-weight: 600;
 }
@@ -139,14 +91,6 @@
     padding: 60px 0;
 }
 
-.is-image-contained .container {
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
 /* Media position */
 .is-media-left .col:has(.content-media__media) {
     order: -1;
@@ -189,13 +133,8 @@
 
     /* Media position */
     .is-media-left .col:has(.content-media__media) {
-        order: 1;
+        order: 0;
     }
-
-    .is-title-above-image .container {
-        margin: 0 auto;
-        padding: 80px 20px;
-    }  
 
     .is-title-above-image .block-heading {
         margin-top: 0px;

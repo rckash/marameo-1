@@ -25,6 +25,7 @@
 .highlight {
     font-family: "Gotcha Regular";
     color: var(--c-turquoise);
+    font-weight: 400;
     font-size: 66px;
     line-height: 52px;
 }
@@ -32,6 +33,7 @@
 .highlight--light {
     font-family: "Gotcha Regular";
     color: var(--c-white);
+    font-weight: 400;
     font-size: 66px;
     line-height: 52px;
 }
@@ -41,14 +43,5 @@
     font-size: 13px;
     line-height: 18px;
     font-weight: 600;
-    color: var(--c-turquoise);
-    text-transform: uppercase;
-}
-
-.bold {
-    font-weight: 600;
-}
-
-.light {
-    color: white;
+    color: var(--c-ebony);
 }

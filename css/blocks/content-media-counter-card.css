@@ -2,13 +2,11 @@
     background: var(--c-pearl-bush);
 }
 
-.content-media-counter-card__container {
+.content-media-counter-card {
     padding: 80px 90px;
-    max-width: 1400px;
     display: flex;
     flex-direction: column;
     gap: 100px;
-    margin: auto;
 }
 
 .content-media-counter-card__col {
