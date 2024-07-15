@@ -4,14 +4,13 @@ footer {
 
 .footer__container {
     margin: 0 auto;
-    padding: 80px;
+    padding: 90px 80px 40px 80px;
     height: auto;
-    max-width: 1400px;
+    max-width: 1320px;
 }
 
 /* Brands */
 .brands {
-    padding-top: 60px;
     width: 100%;
     display: flex;
     align-items: center;
