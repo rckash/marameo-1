@@ -3,6 +3,7 @@
     font-family: "Gotcha Regular";
     src: url(../../fonts/gotcha-regular.ttf) format("truetype");
     font-style: normal;
+    font-weight: 400;
   }
 
   @font-face {
