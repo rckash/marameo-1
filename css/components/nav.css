@@ -11,7 +11,7 @@
     transform: translate(-50%);
     top: 24px;
     width: 95%;
-    max-width: calc(0.95 * 1512px); 
+    max-width: 1320px; 
     height: 80px;
     background-color: #ffffff;
     display: flex;
