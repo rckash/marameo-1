@@ -4,8 +4,7 @@ footer {
 
 .footer__container {
     margin: 0 auto;
-    padding: 90px 80px 40px 80px;
-    height: auto;
+    padding: 90px 16px 40px 16px;
     max-width: 1320px;
 }
 
