@@ -4,6 +4,12 @@
     padding: 0px 20px;
 }
 
+.container-small {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
 .col {
     display: flex;
     flex-direction: column;
@@ -18,5 +24,9 @@
 @media screen and (max-width: 1000px) {
     .container {
         padding: 160px 20px 0 20px;
+    }
+
+    .container-small {
+        padding: 60px 20px;
     }
 }
