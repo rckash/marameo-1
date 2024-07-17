@@ -7,7 +7,7 @@
 }
 
 .numbered-card__number {
-    font-family: "geist-mono", sans-serif;
+    font-family: "Geist Mono", sans-serif;
     color: #FAE6AA;
     font-size: 32px;
     line-height: 32px;
@@ -23,7 +23,7 @@
 }
 
 .numbered-card__title {
-    font-family: "general-sans-medium", sans-serif;
+    font-family: "General Sans", sans-serif;
     font-size: 26px;
     line-height: 32px;
     font-weight: 500;
@@ -33,7 +33,7 @@
 }
 
 .numbered-card__description {
-    font-family: "general-sans-regular", sans-serif;
+    font-family: "General Sans", sans-serif;
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;

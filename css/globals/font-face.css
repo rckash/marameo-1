@@ -32,8 +32,8 @@
 
   @font-face {
     font-display: swap;
-    font-family: "General Sans";
+    font-family: "Geist Mono";
     src: url(../../fonts/GeistMono-SemiBold.otf) format("opentype");
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
   }
