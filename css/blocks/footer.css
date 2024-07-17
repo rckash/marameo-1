@@ -1,8 +1,5 @@
-footer {
-    background-color: #0F1828;
-}
-
 .footer__container {
+    background-color: #0F1828;
     margin: 0 auto;
     padding: 90px 16px 40px 16px;
     max-width: 1320px;
@@ -127,6 +124,7 @@ footer {
     line-height: 24px;
     font-family: 'general-sans-semibold', sans-serif;
     border: 0;
+    font-weight: 600;
 }
 
 /* footnote */
@@ -176,11 +174,6 @@ footer {
 }
 
 @media only screen and (max-width: 1000px) {
-    footer {
-        background-color: #0F1828;
-        padding: 40px 0;
-        height: auto;
-    }
 
     .contacts {
         display: flex;
@@ -193,13 +186,12 @@ footer {
         flex-direction: column;
         justify-content: space-between;
         gap: 36px;
-        margin-top: 40px;
+        background-color: #0F1828;
     }
 
 
     /* brands */
     .brands {
-        padding-top: 80px;
         width: 100%;
         display: flex;
         flex-direction: column;
