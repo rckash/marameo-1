@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+.teaser-card a {
+    text-decoration: none;
+}
+
 .teaser-card__title {
     font-size: 26px;
     line-height: 32px;
