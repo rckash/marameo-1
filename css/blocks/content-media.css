@@ -96,6 +96,7 @@
 
 .is-image-contained .content-media__image {
     border-radius: 0;
+    max-width: 656px;
 }
 
 .is-image-contained .content-media__info {
@@ -110,7 +111,8 @@
 }
 
 .is-media-vertical-center .content-media__media {
-    padding: 0 0 60px 0;
+    padding: 0;
+    margin: auto 0;
 }
 
 @media screen and (max-width: 1000px) {
