@@ -44,6 +44,12 @@
     justify-content: space-between;
 }
 
+.content-media-small-gap {
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+}
+
 .content-media__info {
     padding: 0;
     margin: auto;

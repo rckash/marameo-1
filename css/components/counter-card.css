@@ -8,7 +8,7 @@
 }
 
 .counter-card__count {
-    font-family: "geist-mono", sans-serif;
+    font-family: "Geist Mono", sans-serif;
     font-weight: 500;
     font-size: 32px;
     line-height: 32px;
@@ -21,7 +21,7 @@
 }
 
 .counter-card__title {
-    font-family: "general-sans-medium", sans-serif;
+    font-family: "General Sans", sans-serif;
     font-weight: 500;
     font-size: 26px;
     line-height: 32px;
