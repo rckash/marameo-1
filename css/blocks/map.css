@@ -8,7 +8,8 @@
 
 .state-selector__title {
     color: #383838;
-    font-family: 'general-sans-semibold', sans-serif;
+    font-family: "General Sans", sans-serif;
+    font-weight: 600;
     font-size: 20px;
     line-height: 26px;
     margin: 0;
@@ -25,7 +26,8 @@
 
 .state-selector__item {
     color: #0F1828;
-    font-family: 'general-sans-regular', sans-serif;
+    font-family: "General Sans", sans-serif;
+    font-weight: 400;
     font-size: 18px;
     line-height: 26px;
     list-style: none;
@@ -54,7 +56,8 @@
 
 .state-card__title {
     color: #0F1828;
-    font-family: 'general-sans-semibold', sans-serif;
+    font-family: "General Sans", sans-serif;
+    font-weight: 600;
     font-size: 18px;
     line-height: 26px;
     padding: 0;
@@ -78,7 +81,8 @@
 
     .state-selector__mobile-title {
         color: #383838;
-        font-family: 'general-sans-semibold', sans-serif;
+        font-family: "General Sans", sans-serif;
+        font-weight: 600;
         font-size: 18px;
         line-height: 24px;
         margin: 0;
