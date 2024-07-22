@@ -12,6 +12,16 @@
     padding-bottom: 40px;
 }
 
+.grid__filter {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 38px;
+}
+
+.grid__load-button {
+    margin: 0 auto;
+}
+
 @media screen and (max-width: 1000px) {
     .grid-card {
         background-color: var(--c-white);
@@ -24,6 +34,19 @@
         display: flex;
         flex-direction: column;
         gap: 40px;
+        margin: 0 auto;
+    }
+
+    .grid__filter {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 38px;
+        gap: 32px;
+    }
+
+    .grid__load-button {
+        width: 90%;
         margin: 0 auto;
     }
 }

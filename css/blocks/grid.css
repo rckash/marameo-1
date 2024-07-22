@@ -21,26 +21,18 @@
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
+    gap: 16px;
     padding-bottom: 118px;
     max-width: 360px;
 }
 
-.grid__filter {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 38px;
-}
-
-.grid__load-button {
-    margin: 0 auto;
-}
-
 @media screen and (max-width: 1000px) {
-    .grid__filter {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding-bottom: 38px;
-        gap: 32px;
+    .grid__directory {
+        padding: 124px 16px 80px 16px;
     }
+
+    .grid__title {
+        max-width: 280px;
+    }
+    
 }
