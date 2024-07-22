@@ -12,6 +12,8 @@
     <!-- Components CSS -->
     <link rel="stylesheet" href="/css/components/block-heading.css">
     <link rel="stylesheet" href="/css/components/teaser-card.css">
+    <link rel="stylesheet" href="/css/components/tags.css">
+    <link rel="stylesheet" href="/css/atoms/form-field.css">
 
     <!-- Blocks CSS -->
     <link rel="stylesheet" href="/css/blocks/grid.css">
@@ -39,9 +41,9 @@
 
                     </div>
 
-                    <div class="grid__title">
+                    <div class="col">
 
-                        <div class="col">
+                        <div class="grid__title">
 
                             <h1 class="block-heading--light">
                                 <span class="block-heading__title">Media</span>
@@ -53,13 +55,46 @@
 
                         </div>
 
+                    </div>   
+
                     </div>
 
                     <div class="grid-card">
 
                         <div class="col">
 
-                            <div class="row">
+                            <div class="grid__filter">
+
+                                <div class="tags">
+
+                                    <div class="tag">
+                                        <img src="/images/x-symbol.svg" alt="close tag symbol">
+                                        <p class="tag__text">BLOG</p>
+                                    </div>
+                            
+                                    <div class="tag">
+                                        <img src="/images/x-symbol.svg" alt="close tag symbol">
+                                        <p class="tag__text">design and accessibility</p>
+                                    </div>
+                            
+                                </div>
+
+                                <div class="form-field">
+
+                                    <p class="form-field__label">FILTER BY</p>
+                            
+                                    <div class="form-field__dropdown">
+                            
+                                        <p>Select Filter</p>
+                                        <img src="/images/arrow-down.svg" alt="down arrow">
+                                
+                                    </div>
+                            
+                                </div>
+
+                            </div>
+
+                            <div class="grid-card__row">
 
                                 <div class="teaser-card">
 
@@ -159,7 +194,7 @@
 
                             </div>
 
-                            <div class="row">
+                            <div class="grid-card__row">
 
                                 <div class="teaser-card">
 
@@ -259,7 +294,7 @@
 
                             </div>
 
-                            <div class="row">
+                            <div class="grid-card__row">
 
                                 <div class="teaser-card">
 

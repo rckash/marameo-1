@@ -22,6 +22,13 @@
     justify-content: space-between;
     text-align: center;
     padding-bottom: 118px;
+    max-width: 360px;
+}
+
+.grid__filter {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 38px;
 }
 
 .grid__load-button {

@@ -1,6 +1,7 @@
 .tags {
     display: flex;
     gap: 12px;
+    align-items: center;
 }
 
 .tag {

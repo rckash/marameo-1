@@ -1,5 +1,12 @@
 .grid-card {
     background-color: var(--c-white);
+    color: var(--c-ebony);
     border-radius: 16px;
     padding: 52px 72px;
+}
+
+.grid-card__row {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
 }
