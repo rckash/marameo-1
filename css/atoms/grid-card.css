@@ -9,4 +9,21 @@
     display: flex;
     justify-content: space-between;
     gap: 24px;
+    padding-bottom: 40px;
+}
+
+@media screen and (max-width: 1000px) {
+    .grid-card {
+        background-color: var(--c-white);
+        color: var(--c-ebony);
+        border-radius: 0;
+        padding: 60px 16px;
+    }
+
+    .grid-card__row {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin: 0 auto;
+    }
 }

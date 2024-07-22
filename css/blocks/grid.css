@@ -33,5 +33,14 @@
 
 .grid__load-button {
     margin: 0 auto;
-    padding-top: 40px;
+}
+
+@media screen and (max-width: 1000px) {
+    .grid__filter {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 38px;
+        gap: 32px;
+    }
 }

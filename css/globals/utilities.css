@@ -10,6 +10,12 @@
     padding: 0px 20px;
 }
 
+.container-no-horizontal-padding {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 80px 20px 0 20px;
+}
+
 .col {
     display: flex;
     flex-direction: column;
@@ -28,6 +34,10 @@
 
     .container-small {
         padding: 60px 20px;
+    }
+
+    .container-no-horizontal-padding {
+        padding: 60px 0 0 0;
     }
 
     .col {
