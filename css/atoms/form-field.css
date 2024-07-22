@@ -1,0 +1,19 @@
+.form-field {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.form-field__label {
+    font-weight: 600;
+}
+
+.form-field__dropdown {
+    background-color: var(--c-pearl-bush);
+    border: var(--c-peach-schnapps) 1px solid;
+    display: flex;
+    gap: 146px;
+    justify-content: space-between;
+    padding: 8px 16px;
+    border-radius: 8px;
+}

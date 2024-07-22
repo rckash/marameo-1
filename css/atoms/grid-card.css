@@ -1,0 +1,5 @@
+.grid-card {
+    background-color: var(--c-white);
+    border-radius: 16px;
+    padding: 52px 72px;
+}

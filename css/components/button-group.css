@@ -6,6 +6,7 @@
     border: 0;
     background-color: #007173;
     color: #ffffff;
+    text-decoration: none;
 }
 
 .button:hover {

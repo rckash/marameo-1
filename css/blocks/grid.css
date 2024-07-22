@@ -1,0 +1,30 @@
+.is-green-bg {
+    background-color: var(--c-tiber);
+    color: var(--c-white);
+}
+
+.is-ebony-bg {
+    background-color: var(--c-ebony);
+    color: var(--c-white);
+}
+
+.grid {
+    min-height: 2145px;
+}
+
+.grid__directory {
+    padding: 124px 0 56px 0;
+}
+
+.grid__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 118px;
+}
+
+.grid__load-button {
+    margin: 0 auto;
+    padding-top: 40px;
+}
