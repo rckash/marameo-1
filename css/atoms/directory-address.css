@@ -1,0 +1,11 @@
+.directory-address {
+    padding: 40px 0 56px 0;
+}
+
+.is-grey {
+    color: var(--c-scorpion);
+}
+
+.is-peach {
+    color: var(--c-peach-schnapps);
+}

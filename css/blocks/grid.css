@@ -12,10 +12,6 @@
     padding-bottom: 120px;
 }
 
-.grid__directory {
-    padding: 40px 0 56px 0;
-}
-
 .grid__title {
     display: flex;
     flex-direction: column;
