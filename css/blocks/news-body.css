@@ -1,19 +1,20 @@
+.news-body {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
 .news-body__lead {
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
 }
 
-.news-body__sub-title {
-    padding-top: 48px;
-}
-
 .news-body__content {
-    padding-top: 8px;
+    padding-top: 12px;
 }
 
 .news-body__media {
-    padding-top: 48px;
     width: inherit;
 }
 
@@ -25,10 +26,10 @@
 .news-body__img-caption {
     font-style: italic;
     color: var(--c-scorpion);
+    font-weight: 400;
 }
 
 .news-body__quote {
-    margin-top: 48px;
     position: relative;
 }
 
