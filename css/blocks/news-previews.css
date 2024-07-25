@@ -1,0 +1,34 @@
+.news-previews {
+    max-width: 336px;
+}
+
+.news-previews__section-title {
+    padding-bottom: 4px;
+    font-weight: 600;
+    color: var(--c-turquoise);
+}
+
+.news-previews__preview {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.news-previews__img {
+    width: 100%;
+    max-width: 104px;
+    margin-right: 8px;
+    margin-top: 8px;
+    border-radius: 4px;
+}
+
+.news-previews__title {
+    font-weight: 600;
+}
+
+.news-previews__date {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--c-scorpion);
+}
