@@ -1,0 +1,14 @@
+.share-links__title {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--c-turquoise);
+    padding-bottom: 24px;
+}
+
+.share-links__links {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    max-width: 174px;
+}
