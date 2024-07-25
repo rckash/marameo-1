@@ -1,16 +1,17 @@
-.news-hero__text {
+.news-hero__breadcrumbs {
     position: absolute;
-    top: 80px;
-    left: 100px;
+    left: 80px;
+    top: 140px;
 }
 
 .news-hero__img {
-    max-width: inherit;
+    width: 100%;
 }
 
 @media screen and (max-width: 1000px) {
-    .news-hero__text {
+    .news-hero__breadcrumbs {
         position: static;
-        padding: 40px 0 56px 0;
+        background-color: var(--c-pearl-bush);
+        padding: 140px 20px 24px 20px;
     }
 }
