@@ -31,3 +31,36 @@
 .news-title__author-name {
     font-weight: 600;
 }
+
+.tran-row {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .news-title {
+        padding: 0 20px;
+    }
+
+    .news-title__title-author {
+        order: -1;
+        overflow: auto;
+    }
+
+    .news-title__author {
+        padding-top: 32px;
+        padding-bottom: 48px;
+    }
+
+    .news-title__category-date {
+        width: fit-content;
+    }
+
+    .tran-row {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
