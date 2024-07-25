@@ -12,6 +12,21 @@
     padding-top: 8px;
 }
 
+.news-body__media {
+    padding-top: 48px;
+    width: inherit;
+}
+
+.news-body__img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.news-body__img-caption {
+    font-style: italic;
+    color: var(--c-scorpion);
+}
+
 .news-body__quote {
     margin-top: 48px;
     position: relative;
