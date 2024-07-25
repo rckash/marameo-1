@@ -1,0 +1,44 @@
+.article-body__lead {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.article-body__sub-title {
+    padding-top: 48px;
+}
+
+.article-body__content {
+    padding-top: 8px;
+}
+
+.article-body__quote {
+    margin-top: 48px;
+    position: relative;
+}
+
+.quote__content {
+    padding-left: 40px;
+    font-weight: 600;
+    color: var(--c-turquoise);
+}
+
+.article-body__quote::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 10px;
+    background-color: var(--c-turquoise);
+}
+
+.quote__author {
+    color: var(--c-tiber);
+    padding-top: 16px;
+    padding-left: 40px;
+}
+
+.quote__author-name {
+    font-weight: 600;
+}
