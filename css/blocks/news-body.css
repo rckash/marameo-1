@@ -1,18 +1,18 @@
-.article-body__lead {
+.news-body__lead {
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
 }
 
-.article-body__sub-title {
+.news-body__sub-title {
     padding-top: 48px;
 }
 
-.article-body__content {
+.news-body__content {
     padding-top: 8px;
 }
 
-.article-body__quote {
+.news-body__quote {
     margin-top: 48px;
     position: relative;
 }
@@ -23,7 +23,7 @@
     color: var(--c-turquoise);
 }
 
-.article-body__quote::after {
+.news-body__quote::before {
     content: "";
     position: absolute;
     top: 0;
