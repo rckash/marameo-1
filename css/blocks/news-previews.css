@@ -1,11 +1,13 @@
 .news-previews {
-    max-width: 336px;
+    width: 336px;
 }
 
 .news-previews__section-title {
     padding-bottom: 4px;
     font-weight: 600;
     color: var(--c-turquoise);
+    font-size: 13px;
+    line-height: 18px;
 }
 
 .news-previews__preview {

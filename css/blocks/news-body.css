@@ -4,6 +4,16 @@
     gap: 48px;
 }
 
+.news-body__row {
+    display: flex;
+    gap: 78px;
+}
+
+.news-body__share-links {
+    padding-top: 64px;
+}
+
+
 .news-body__lead {
     font-weight: 500;
     font-size: 20px;
@@ -15,7 +25,7 @@
 }
 
 .news-body__media {
-    width: inherit;
+    width: 100%;
 }
 
 .news-body__img {
