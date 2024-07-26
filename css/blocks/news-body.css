@@ -9,6 +9,11 @@
     gap: 78px;
 }
 
+.news-body__sidebar {
+    position: sticky;
+    top: 0;
+}
+
 .news-body__share-links {
     padding-top: 64px;
 }
