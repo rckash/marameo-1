@@ -155,6 +155,15 @@
         margin: 0;
     }
 
+    .is-image-overlapped {
+        margin-top: 180px;
+    }
+
+    .is-image-overlapped .content-media__media {
+        margin: -120px 0 0;
+        max-width: 484px;
+      }
+
     /* Media position */
     .is-media-left .col:has(.content-media__media) {
         order: 0;
