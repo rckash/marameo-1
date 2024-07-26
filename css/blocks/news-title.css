@@ -1,6 +1,9 @@
-.news-title {
+.is-yellow-bg {
     background-color: var(--c-yellow);
-    padding: 0 100px;
+}
+
+.news-title {
+
 }
 
 .news-title__title {
@@ -11,11 +14,12 @@
 }
 
 .news-title__category-date {
-    width: 800px;
+    width: 700px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     padding-bottom: 32px;
+    padding-right: 58px;
 }
 
 .news-title__author {
