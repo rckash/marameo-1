@@ -85,4 +85,8 @@
     .news-body__sidebar {
         order: 1;
     }
+
+    .news-body__share-links {
+        padding-bottom: 64px;
+    }
 }

@@ -40,6 +40,7 @@
 .button-form {
     padding: 12px 24px;
     margin-left: 8px;
+    text-align: center;
 }
 
 .button-group {
@@ -67,6 +68,7 @@
     }
 
     .button-form {
-        width: fit-content;
+        width: 90%;
+        margin: 0;
     }
 }
