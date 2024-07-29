@@ -19,7 +19,11 @@
     flex-direction: column;
     justify-content: flex-end;
     padding-bottom: 32px;
-    padding-right: 58px;
+}
+
+.news-title__title-author {
+    border-left: 1px solid var(--c-scorpion);
+    padding-left: 58px;
 }
 
 .news-title__author {
@@ -50,6 +54,8 @@
     .news-title__title-author {
         order: -1;
         overflow: auto;
+        border-left: none;
+        padding-left: 0;
     }
 
     .news-title__author {
