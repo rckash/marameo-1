@@ -73,3 +73,15 @@
 .quote__author-name {
     font-weight: 600;
 }
+
+@media screen and (max-width: 1000px) {
+    .news-body__row {
+        display: flex;
+        flex-direction: column;
+        gap: 78px;
+    }
+
+    .news-body__sidebar {
+        order: 1;
+    }
+}
