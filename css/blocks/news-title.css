@@ -21,6 +21,10 @@
     padding-bottom: 32px;
 }
 
+.news-title__category {
+    font-weight: 600;
+}
+
 .news-title__title-author {
     border-left: 1px solid var(--c-scorpion);
     padding-left: 58px;
@@ -40,7 +44,7 @@
     font-weight: 600;
 }
 
-.tran-row {
+.news-title__row {
     display: flex;
     flex-direction: row;
 }
@@ -67,7 +71,7 @@
         width: fit-content;
     }
 
-    .tran-row {
+    .news-title__row {
         display: flex;
         flex-direction: column;
     }
