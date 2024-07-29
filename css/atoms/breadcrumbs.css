@@ -14,4 +14,8 @@
     .breadcrumbs {
         padding: 60px 0 56px 30px;
     }
+
+    .is-peach {
+        color: var(--c-ebony);
+    }
 }
