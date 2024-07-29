@@ -2,8 +2,8 @@
     background-color: var(--c-yellow);
 }
 
-.news-title {
-
+.is-peach-bg {
+    background-color: var(--c-peach-schnapps);
 }
 
 .news-title__title {
@@ -14,11 +14,43 @@
 }
 
 .news-title__category-date {
-    width: 700px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     padding-bottom: 32px;
+    width: fit-content;
+    min-width: 320px;
+    padding-right: 56px;
+}
+
+.news-title__date {
+    background-color: var(--c-dark-pink);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 12px 0;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+.news-title__date-day {
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 600;
+}
+
+.news-title__date-month {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.news-title__date-time {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
 }
 
 .news-title__category {
@@ -34,6 +66,11 @@
     padding-top: 88px;
     width: 220px;
     padding-bottom: 32px;
+}
+
+.news-title__title-description {
+    padding-top: 16px;
+    padding-bottom: 58px;
 }
 
 .news-title__author-img {
@@ -68,7 +105,11 @@
     }
 
     .news-title__category-date {
+        padding-right: 0;
         width: fit-content;
+    }
+
+    .news-title__date {
     }
 
     .news-title__row {
