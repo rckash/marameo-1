@@ -8,17 +8,20 @@
     <!-- Atoms CSS -->
     <link rel="stylesheet" href="../css/atoms/logo.css">
     <link rel="stylesheet" href="../css/atoms/directory-address.css">
+    <link rel="stylesheet" href="../css/atoms/form-field.css">
     
     <!-- Components CSS -->
     <link rel="stylesheet" href="../css/components/button-group.css">
     <link rel="stylesheet" href="../css/components/nav.css">
     <link rel="stylesheet" href="../css/blocks/news-previews.css">
     <link rel="stylesheet" href="../css/components/share-links.css">
+    <link rel="stylesheet" href="../css/components/button-group.css">
 
     <!-- Blocks CSS -->
     <link rel="stylesheet" href="../css/blocks/news-hero.css">
     <link rel="stylesheet" href="../css/blocks/news-title.css">
     <link rel="stylesheet" href="../css/blocks/news-body.css">
+    <link rel="stylesheet" href="../css/blocks/content-media.css">
 
     <!-- Globals CSS -->
     <link rel="stylesheet" href="../css/globals/font-face.css">
@@ -90,7 +93,7 @@
                         </div>
 
 
-                    <img src="../images/specialist-disability-accommodation.jpg" alt="" width="1512" height="756" class="news-hero__img">
+                    <img src="../images/specialist-disability-accommodation.jpg" alt="" width="1512" height="756" class="news-hero__img" loading="lazy">
     
                 </div>
 
@@ -123,7 +126,7 @@
         
                                 <div class="row news-title__author">
                 
-                                    <img class="news-title__author-img" src="../images/robert-john.jpg" alt="image of Robert John">
+                                    <img class="news-title__author-img" src="../images/robert-john.jpg" alt="image of Robert John" loading="lazy">
                                     <div class="col">
                                         <p class="news-title__author-name">Robert John</p>
                                         <p>Property Manager</p>
@@ -147,10 +150,9 @@
 
             <div class="news-body__row">
     
-                <article>
-                    <div class="news-body__sidebar">
+                <article class="news-body__sidebar">
+                    <div>
     
-                    
                         <div class="col">
                             <div class="news-previews">
     
@@ -162,7 +164,7 @@
                     
                                         <div class="row">
                     
-                                            <img class="news-previews__img" src="../images/news-image.jpg" alt="news preview image" loading="lazy" width="104" height="52">
+                                            <img class="news-previews__img" src="/images/news-image.jpg" alt="news preview image" loading="lazy" width="104" height="52">
                     
                                             <div class="col">
                                                 <p class="news-previews__title">Nunc erat non pellentesque pretium at malesuada viverra</p>
@@ -177,7 +179,7 @@
                     
                                         <div class="row">
                     
-                                            <img class="news-previews__img" src="../images/news-image.jpg" alt="news preview image" loading="lazy" width="104" height="52">
+                                            <img class="news-previews__img" src="/images/news-image.jpg" alt="news preview image" loading="lazy" width="104" height="52">
                     
                                             <div class="col">
                                                 <p class="news-previews__title">Nunc erat non pellentesque pretium at malesuada viverra</p>
@@ -192,7 +194,7 @@
                     
                                         <div class="row">
                     
-                                            <img class="news-previews__img" src="../images/news-image.jpg" alt="news preview image" loading="lazy" width="104" height="52">
+                                            <img class="news-previews__img" src="/images/news-image.jpg" alt="news preview image" loading="lazy" width="104" height="52">
                     
                                             <div class="col">
                                                 <p class="news-previews__title">Nunc erat non pellentesque pretium at malesuada viverra</p>
@@ -215,10 +217,10 @@
                     
                                     <div class="share-links__links">
                         
-                                        <a href="/#"><img src="../images/arrow-down.svg" alt=""></a>
-                                        <a href="/#"><img src="../images/arrow-down.svg" alt=""></a>
-                                        <a href="/#"><img src="../images/arrow-down.svg" alt=""></a>
-                                        <a href="/#"><img src="../images/arrow-down.svg" alt=""></a>
+                                        <a href="/#"><img src="/images/arrow-down.svg" alt=""></a>
+                                        <a href="/#"><img src="/images/arrow-down.svg" alt=""></a>
+                                        <a href="/#"><img src="/images/arrow-down.svg" alt=""></a>
+                                        <a href="/#"><img src="/images/arrow-down.svg" alt=""></a>
                         
                                     </div>
                         
@@ -264,7 +266,7 @@
             
                             <div class="news-body__media">
                                 <figure>
-                                    <img class="news-body__img" src="../images/news-image.jpg" alt="a person using their laptop" height="612" width="920" loading="lazy">
+                                    <img class="news-body__img" src="/images/news-image.jpg" alt="a person using their laptop" height="612" width="920" loading="lazy">
                                     <figcaption class="news-body__img-caption">Mauris vitae facilisis commodo elit est id scelerisque ut ut.</figcaption>
                                 </figure>
                                 
@@ -397,6 +399,50 @@
             </div>
     
         </div>
+    
+        <section class="is-dual-bg-dark is-media-left is-image-overlapped">
+    
+            <div class="container">
+    
+                <div class="content-media">
+    
+                    <div class="col">
+    
+                        <div class="content-media__info">
+        
+                            <h2 class="block-heading">
+                                <span class="block-heading__title">Stay connected and informed</span>
+                            </h2>
+            
+                            <p>Join our community mailing list for the latest in empowering living, inclusive design, and inspiring stories.</p>
+                
+                            <div class="form-field">
+    
+                                <input type="text" id="subscription-email-address" name="subscription-email-address" class="form-field__input" placeholder="Email address">
+                        
+                                <a class="button button-form">Subscribe</a>
+                        
+                            </div>
+        
+                        </div>
+        
+                    </div>
+        
+                    <div class="col">
+        
+                        <div class="content-media__media">
+        
+                            <img class="content-media__image" src="../images/life-changing-living.jpg" alt="two people chatting while seated on a couch" height="604px" width="604px" loading="lazy">
+        
+                        </div>
+                    
+                    </div>
+        
+                </div>
+        
+            </div>
+    
+        </section>
 
     </main>
 

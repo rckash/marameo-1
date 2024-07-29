@@ -19,6 +19,19 @@
     border-radius: 8px;
 }
 
+.form-field__input {
+    height: 48px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid var(--c-scorpion);
+    color: var(--c-scorpion);
+    background-color: var(--c-white);
+    padding: 0px 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
 @media screen and (max-width: 1000px) {
     .form-field__dropdown {
         gap: 100px;
