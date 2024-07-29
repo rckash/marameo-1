@@ -163,6 +163,11 @@
     .is-image-contained .content-media__info {
         margin: 0;
     }
+
+    .is-image-overlapped {
+        margin-top: 0px;
+        padding: ;
+    }
     
     .is-image-overlapped .content-media__media {
         margin: 0 auto;
