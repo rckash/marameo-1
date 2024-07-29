@@ -11,4 +11,5 @@
     gap: 24px;
     justify-content: space-between;
     max-width: 174px;
+    justify-content: baseline;
 }
