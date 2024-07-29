@@ -28,6 +28,7 @@
 .form-field__input {
     height: 48px;
     width: 100%;
+    max-width: 392px;
     border-radius: 8px;
     border: 1px solid var(--c-scorpion);
     color: var(--c-scorpion);
@@ -38,14 +39,7 @@
     line-height: 1.5;
 }
 
-@media screen and (max-width: 1000px) {
-    .form-field__dropdown {
-        gap: 100px;
-        justify-content: space-between;
-        padding: 8px 16px;
-        border-radius: 8px;
-    }
-
+@media screen and (max-width: 1240px) {
     .form-field-col {
         display: flex;
         flex-direction: column;
@@ -57,5 +51,14 @@
         width: 95%;
         max-width: inherit;
         border: none;
+    } 
+}
+
+@media screen and (max-width: 1000px) {
+    .form-field__dropdown {
+        gap: 100px;
+        justify-content: space-between;
+        padding: 8px 16px;
+        border-radius: 8px;
     }
 }

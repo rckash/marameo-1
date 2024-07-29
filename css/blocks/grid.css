@@ -22,6 +22,10 @@
     max-width: 360px;
 }
 
+.grid__title-long {
+    max-width: 444px;
+}
+
 @media screen and (max-width: 1000px) {
     .grid {
         padding-bottom: 0;
