@@ -112,11 +112,11 @@
 }
 
 .is-image-overlapped {
-    margin-top: 180px;
+    margin-top: 190px;
 }
 
 .is-image-overlapped .content-media__media {
-    margin: -160px 0 0 0;
+    margin: -100px 0 0 0;
     max-width: 484px;
 }
 
@@ -166,7 +166,7 @@
 
     .is-image-overlapped {
         margin-top: 0px;
-        padding: ;
+        padding-top: 64px;
     }
     
     .is-image-overlapped .content-media__media {

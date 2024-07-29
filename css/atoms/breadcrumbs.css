@@ -9,3 +9,9 @@
 .is-peach {
     color: var(--c-peach-schnapps);
 }
+
+@media screen and (max-width: 1000px) {
+    .breadcrumbs {
+        padding: 60px 0 56px 30px;
+    }
+}
