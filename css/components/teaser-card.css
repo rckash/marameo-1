@@ -4,6 +4,7 @@
     max-width: 424px;
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 .teaser-card a {
@@ -36,4 +37,10 @@
 .teaser-card__media-content__img {
     border-radius: 12px;
     width: 100%;
+}
+
+.teaser-card__link {
+    position: absolute;
+    inset: 0;
+    z-index: 99;
 }
