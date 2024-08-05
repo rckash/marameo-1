@@ -59,7 +59,7 @@
     color: #0f1828;
     font-size: 16px;
     line-height: 24px;
-    font-family: 'general-sans-medium', sans-serif;
+    font-family: "General Sans", sans-serif;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -88,6 +88,12 @@
 
     .nav-hamburger__icon {
         display: block;
+    }
+
+    .nav-hamburger__button {
+        padding: 0;
+        border: none;
+        background: none;
     }
 
 }
