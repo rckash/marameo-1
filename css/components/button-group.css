@@ -37,6 +37,11 @@
     background-color: #F1EAE6;
 }
 
+.button--no-border-bg {
+    border: none;
+    background: none;
+}
+
 .button-form {
     padding: 12px 24px;
     margin-left: 8px;

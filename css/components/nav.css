@@ -96,5 +96,11 @@
         background: none;
     }
 
+    .nav-hamburger__button:active {
+        padding: 0;
+        border: none;
+        background: yellow;
+    }
+
 }
 

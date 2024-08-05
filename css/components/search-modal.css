@@ -1,0 +1,25 @@
+.search-modal {
+    padding: 320px 0;
+    width: 100%;
+    background-color: var(--c-white);
+}
+
+.search-modal__headline {
+    padding-bottom: 18px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.search-modal__input {
+    width: 100%;
+    border: none;
+    background: none;
+    padding: 0 10px;
+}
+
+.search-modal__button {
+    padding: 10px;
+}
