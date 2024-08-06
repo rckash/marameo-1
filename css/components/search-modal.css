@@ -1,7 +1,13 @@
 .search-modal {
-    padding: 320px 0;
+    padding-bottom: 320px;
     width: 100%;
     background-color: var(--c-white);
+}
+
+.search-modal__close-button {
+    align-self: flex-end;
+    margin-bottom: 260px;
+    padding: 28px;
 }
 
 .search-modal__headline {
