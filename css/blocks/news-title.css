@@ -104,12 +104,13 @@
         padding-bottom: 48px;
     }
 
-    .news-title__category-date {
-        padding-right: 0;
-        width: fit-content;
+    .col:has(.news-title__date) {
+        width: 100%;
     }
 
-    .news-title__date {
+    .news-title__category-date {
+        padding-right: 0;
+        width: 100%;
     }
 
     .news-title__row {
