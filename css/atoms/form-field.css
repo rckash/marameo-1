@@ -13,16 +13,36 @@
 .form-field__label {
     font-weight: 600;
     letter-spacing: 2px;
+    width: 200px;
+}
+
+.dropdown-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.dropdown-container .form-field__dropdown-icon {
+    position: absolute;
+    right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .form-field__dropdown {
+    appearance: none;
+    width: 100%;
     background-color: var(--c-pearl-bush);
     border: var(--c-peach-schnapps) 1px solid;
-    display: flex;
-    gap: 146px;
-    justify-content: space-between;
     padding: 8px 16px;
     border-radius: 8px;
+    font-family: "General Sans";
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 20px;
 }
 
 .form-field__input {
@@ -69,5 +89,13 @@
         justify-content: space-between;
         padding: 8px 16px;
         border-radius: 8px;
+    }
+
+    .form-field__label {
+        width: 140px;
+    }
+
+    .dropdown-container {
+        flex-shrink: 2;
     }
 }
