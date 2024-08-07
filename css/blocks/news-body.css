@@ -9,9 +9,10 @@
     gap: 78px;
 }
 
-.news-body__sidebar {
+.news-body__sidebar-elements {
     position: sticky;
-    top: 0;
+    top: 160px;
+    overflow: hidden;
 }
 
 .news-body__share-links {

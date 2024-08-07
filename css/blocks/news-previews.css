@@ -1,5 +1,7 @@
 .news-previews {
     width: 336px;
+    position: sticky;
+    top: 0;
 }
 
 .news-previews__section-title {
