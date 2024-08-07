@@ -5,12 +5,11 @@
 }
 
 .news-hero__media {
-    margin: 0 auto;
+    margin: -10px auto;
 }
 
 .news-hero__img {
     width: 100%;
-    height: auto;
 }
 
 @media screen and (max-width: 1000px) {
