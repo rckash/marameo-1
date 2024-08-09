@@ -83,6 +83,7 @@
     width: 100%;
     max-width: 604px;
     height: auto;
+    display: block;
 }
 
 /* Border Style */
@@ -114,6 +115,7 @@
 .is-image-contained .content-media__image {
     border-radius: 0;
     max-width: 656px;
+    display: block;
 }
 
 .is-image-contained .content-media__info {
