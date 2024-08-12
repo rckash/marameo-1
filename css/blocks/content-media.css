@@ -115,7 +115,6 @@
 .is-image-contained .content-media__image {
     border-radius: 0;
     max-width: 656px;
-    display: block;
 }
 
 .is-image-contained .content-media__info {

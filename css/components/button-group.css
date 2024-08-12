@@ -71,6 +71,12 @@
         width: 90%;
     }
 
+    .button-no-horizontal-pad {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+
     .button--filled-solo {
         padding: 20px;
         width: 100%;
