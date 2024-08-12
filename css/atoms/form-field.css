@@ -66,6 +66,7 @@
     margin: 0 auto;
     border-radius: 8px;
     border: 1px solid var(--c-scorpion);
+    margin: 0 20px;
 }
 
 @media screen and (max-width: 1240px) {

@@ -1,12 +1,21 @@
 .search-modal {
-    padding-bottom: 320px;
-    width: 100%;
+    width: 95%;
     background-color: var(--c-white);
+    max-width: 1320px;
+    padding-bottom: 100px;
+
+    position: fixed;
+    z-index: 50;
+    left: 50%;
+    transform: translate(-50%);
+    top: 24px;
+
+    display: none;
 }
 
 .search-modal__close-button {
     align-self: flex-end;
-    margin-bottom: 260px;
+    margin-bottom: 60px;
     padding: 28px;
 }
 
@@ -17,6 +26,7 @@
     line-height: 48px;
     margin: 0 auto;
     text-align: center;
+    margin: 0 20px;
 }
 
 .search-modal__input {

@@ -7,6 +7,7 @@
 
     <!-- Atoms CSS -->
     <link rel="stylesheet" href="../css/atoms/form-field.css">
+    <link rel="stylesheet" href="../css/components/search-modal.css">
 
     <!-- Components CSS -->
     <link rel="stylesheet" href="../css/components/nav.css">
@@ -17,10 +18,13 @@
     <link rel="stylesheet" href="../css/globals/base.css">
     <link rel="stylesheet" href="../css/globals/utilities.css">
 
+    <script src="../js/blocks/nav.js" defer></script>
+
 </head>
 <body style="background-color: gray">
 
     <nav class="nav">
+
         <div class="nav__container">
 
             <div class="nav-elements">
@@ -46,7 +50,7 @@
             
                 <ul class="nav-search">
                     <li>
-                        <a href="/#"><img src="/images/magnifying-glass.svg" alt="magnifying glass icon" class="nav-search__icon"></a>
+                        <a onclick="showSearchModal()"><img src="/images/magnifying-glass.svg" alt="magnifying glass icon" class="nav-search__icon"></a>
                     </li>
                     <li>
                         <a class="button nav-search__button" href="/#">Submit Enquiry</a>
@@ -58,6 +62,31 @@
     
             </div>
 
+        </div>
+
+        <div class="container">
+
+            <div class="search-modal">
+                <div class="col">
+                    <div class="search-modal__close-button">
+                        <button class="button--no-border-bg" onclick="hideSearchModal()"><img src="../images/x-symbol.svg" alt="" width="20px" height="20px"></button>
+                    </div>
+            
+                        <div class="col">
+                            
+                            <p class="search-modal__headline">How can we help you today?</p>
+                    
+                            <search>
+                                <form class="form-field__search row-spaced-between">
+                                  <input name="fsrch" id="fsrch" placeholder="Enter a keyword to start searching" class="search-modal__input">
+                                  <button class="search-modal__button button--no-border-bg"><img src="/images/magnifying-glass.svg" alt=""></button>
+                                </form>
+                            </search>
+                
+                        </div>
+                    </div>
+                </div>
+    
         </div>
         
     </nav>
