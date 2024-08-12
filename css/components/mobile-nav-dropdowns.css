@@ -1,6 +1,21 @@
 .mobile-nav-dropdowns__container {
     background-color: var(--c-white);
     padding: 16px 16px 46px 16px;
+
+    width: 95%;
+    background-color: var(--c-white);
+    max-width: 1320px;
+    padding-bottom: 100px;
+
+    position: fixed;
+    z-index: 50;
+    left: 50%;
+    transform: translate(-50%);
+    top: 24px;
+
+    height: 100vh;
+
+    /* display: none; */
 }
 
 .top-nav {
@@ -8,6 +23,11 @@
     justify-content: space-between;
     padding: 8px 24px;
     align-items: center;
+}
+
+.top-nav button {
+    background: none;
+    border: none;
 }
 
 .mobile-nav-dropdowns {
@@ -34,4 +54,5 @@
     padding: 0;
     font-weight: 600;
     margin-top: 24px;
+    padding: 10px 0;
 }
