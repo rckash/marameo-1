@@ -5,10 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Connect</title>
 
-    <!-- nav -->
-    <link rel="stylesheet" href="css/components/nav.css">
-    <link rel="stylesheet" href="css/atoms/button.css">
-
     <!-- footer -->
     <link rel="stylesheet" href="css/blocks/footer.css">
     <link rel="stylesheet" href="css/atoms/logo.css">
@@ -16,6 +12,8 @@
     <!-- Atoms CSS -->
     <link rel="stylesheet" href="css/atoms/paragraph-content.css">
     <link rel="stylesheet" href="css/atoms/link-with-arrow.css">
+    <link rel="stylesheet" href="css/components/search-modal.css">
+    <link rel="stylesheet" href="css/atoms/form-field.css">
     
     <!-- Components CSS -->
     <link rel="stylesheet" href="css/components/button-group.css">
@@ -23,17 +21,22 @@
     <link rel="stylesheet" href="css/components/block-heading.css">
     <link rel="stylesheet" href="css/components/counter-card.css">
     <link rel="stylesheet" href="css/components/teaser-card.css">
+    <link rel="stylesheet" href="css/components/mobile-nav-dropdowns.css">
     
     <!-- Blocks CSS -->
     <link rel="stylesheet" href="css/blocks/content-media.css">
     <link rel="stylesheet" href="css/blocks/content-media-counter-card.css">
     <link rel="stylesheet" href="css/blocks/headline-cards.css">
     <link rel="stylesheet" href="css/blocks/map.css">
+    <link rel="stylesheet" href="css/blocks/nav.css">
     
     <!-- Globals CSS -->
     <link rel="stylesheet" href="css/globals/font-face.css">
     <link rel="stylesheet" href="css/globals/base.css">
     <link rel="stylesheet" href="css/globals/utilities.css">
+
+    <!-- Scripts -->
+    <script src="../js/blocks/nav.js" defer></script>
 
 </head>
 <body>
@@ -41,6 +44,7 @@
     <header>
 
         <nav class="nav">
+
             <div class="nav__container">
     
                 <div class="nav-elements">
@@ -66,19 +70,75 @@
                 
                     <ul class="nav-search">
                         <li>
-                            <a href="/#"><img src="/images/magnifying-glass.svg" alt="magnifying glass icon" class="nav-search__icon"></a>
+                            <a onclick="showSearchModal()"><img src="/images/magnifying-glass.svg" alt="magnifying glass icon" class="nav-search__icon"></a>
                         </li>
                         <li>
                             <a class="button nav-search__button" href="/#">Submit Enquiry</a>
                         </li>
                         <li>
-                            <button class="nav-hamburger__button"><img src="/images/list.svg" alt="Hamburger Icon" class="nav-hamburger__icon"></button>
+                            <button class="nav-hamburger__button" onclick="showMobileNavDropdown()"><img src="/images/list.svg" alt="Hamburger Icon" class="nav-hamburger__icon"></button>
                         </li>
                     </ul>
         
                 </div>
     
             </div>
+    
+
+    
+            <div class="search-modal">
+                <div class="col">
+                    <div class="search-modal__close-button">
+                        <button class="button--no-border-bg" onclick="hideSearchModal()"><img src="../images/x-symbol.svg" alt="" width="20px" height="20px"></button>
+                    </div>
+                
+                    <div class="col">
+                                
+                        <p class="search-modal__headline">How can we help you today?</p>
+                        
+                        <search>
+                            <form class="form-field__search row-spaced-between">
+                                <input name="fsrch" id="fsrch" placeholder="Enter a keyword to start searching" class="search-modal__input">
+                                <button class="search-modal__button button--no-border-bg"><img src="/images/magnifying-glass.svg" alt=""></button>
+                            </form>
+                        </search>
+                    
+                    </div>
+                </div>
+            </div>
+        
+
+    
+            <div class="mobile-nav-dropdowns__container">
+    
+                <div class="top-nav">
+                    <img src="../images/liverty-housing.jpg" alt="" width="110" height="50">
+                    <button onclick="hideMobileNavDropdown()"><img src="../images/x-symbol.svg" alt="" width="24" height="24"></button>
+                </div>
+        
+                <ul class="mobile-nav-dropdowns">
+                    <li>
+                        <a href="/#" class="dropdown">Our Properties<img src="/images/arrow-down.svg" alt="arrow down symbol" class="nav-dropdowns__icon"></a>
+                    </li>
+                    <li>
+                        <a href="/#" class="dropdown">SDA<img src="/images/arrow-down.svg" alt="arrow down symbol" class="nav-dropdowns__icon"></a>
+                    </li>
+                    <li>
+                        <a href="/#" class="dropdown">About Us<img src="/images/arrow-down.svg" alt="arrow down symbol" class="nav-dropdowns__icon"></a>
+                    </li>
+                    <li>
+                        <a href="/#" class="dropdown">Resource Hub<img src="/images/arrow-down.svg" alt="arrow down symbol" class="nav-dropdowns__icon"></a>
+                    </li>
+                    <li>
+                        <a href="/#" class="dropdown">Media & News<img src="/images/arrow-down.svg" alt="arrow down symbol" class="nav-dropdowns__icon"></a>
+                    </li>
+                    <li>
+                        <a class="button button-no-horizontal-pad dropdown-button" href="/#">Submit Enquiry</a>
+                    </li>
+                </ul>
+        
+            </div>
+            
         </nav>
 
     </header>
