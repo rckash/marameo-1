@@ -54,11 +54,11 @@
     gap: 10px;
 }
 
-/* .button-no-horizontal-pad {
+.button-no-horizontal-pad {
     padding-left: 0;
     padding-right: 0;
     width: 100%;
-} */
+}
 
 @media screen and (max-width: 1240px) {
     .button-form {
