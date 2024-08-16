@@ -7,6 +7,14 @@
     max-width: 480px;
 }
 
+.paragraph-content--small {
+    font-family: "General Sans", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #383838;
+}
+
 .paragraph-content--semibold {
     font-family: "General Sans", sans-serif;
     font-weight: 600;
